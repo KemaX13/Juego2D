@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 4544440218741039148}
   - component: {fileID: 2464825304621692784}
   - component: {fileID: -8731356186781633108}
-  m_Layer: 6
-  m_Name: Blaster04
+  - component: {fileID: 1770051674798692790}
+  - component: {fileID: -5813462515708670057}
+  m_Layer: 7
+  m_Name: shot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,3 +107,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &1770051674798692790
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475149658926270905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.005747199, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.30474943
+--- !u!114 &-5813462515708670057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475149658926270905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c8aaeb78862d647a209f48375e4b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

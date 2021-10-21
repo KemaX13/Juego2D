@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740e05dd3eaec474bbf850e7f0567f56, type: 3}
-  m_Name: MissileData
+  m_Script: {fileID: 11500000, guid: 2e448ad55471148499532e1b89e70851, type: 3}
+  m_Name: SmallMeteorData
   m_EditorClassIdentifier: 
-  projectile: {fileID: 1748324666900075260, guid: 03f2a1e2509bf7c478bc4bbb1d35d281, type: 3}
-  fireForce: 80
+  meteor: {fileID: 440403570991168589, guid: 1f11708ab114676498c626fdd1752f4d, type: 3}

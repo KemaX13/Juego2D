@@ -6,6 +6,9 @@ public class MeteorGenerator : MonoBehaviour
 {
     public GameObject[] meteors = new GameObject[2];
     public Transform[] positions;
+
+    /*public MeteorSystemData[] meteorData;
+    private MeteorSystem launcher;*/
     void Start()
     {
         StartCoroutine(GenerateMeteor());

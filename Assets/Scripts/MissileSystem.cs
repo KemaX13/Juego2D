@@ -6,7 +6,7 @@ public class MissileSystem : ShootingSystem
 {
     public override void Shoot()
     {
-        GameObject miss = PoolingManager.Instance.GetPooledObject();
+        GameObject miss = PoolingManager.Instance.GetPooledObject("missile");
         if (miss != null)
         {
             miss.transform.position = shotPoint.position;

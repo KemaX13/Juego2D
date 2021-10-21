@@ -30,7 +30,7 @@ public class ShipController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.V))
         {
-            ShootingSystemData sh = Resources.Load<ShootingSystemData>("ShotData");
+            ShootingSystemData sh = Resources.Load<ShootingSystemData>("MissileData");
             Destroy(gameObject.GetComponent<ShootingSystem>());
             MissileSystem m = gameObject.AddComponent<MissileSystem>();
             m.shootingdata = sh;

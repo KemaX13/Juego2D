@@ -6,7 +6,7 @@ public class ShotSystem : ShootingSystem
 {
     public override void Shoot()
     {
-        GameObject shot = PoolingManager.Instance.GetPooledObject();
+        GameObject shot = PoolingManager.Instance.GetPooledObject("shots");
         if (shot != null)
         {
             shot.transform.position = shotPoint.position;

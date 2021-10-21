@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360993620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 39.4, z: 0}
+  m_LocalPosition: {x: 0, y: 34.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 217005759}
@@ -195,14 +195,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360993620}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdc6db5043ae13b4e91019e8cf288060, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   meteors:
-  - {fileID: 440403570991168589, guid: c8cbd37f60c38204397b63f3b9e34121, type: 3}
-  - {fileID: 6469403201947706, guid: 0d6c2fad8b3db994084945a7f58b9b41, type: 3}
+  - {fileID: 440403570991168589, guid: 1f11708ab114676498c626fdd1752f4d, type: 3}
+  - {fileID: 6469403201947706, guid: c9fd607f8a573c4498944b65f7f97f6a, type: 3}
   positions:
   - {fileID: 217005759}
   - {fileID: 377349151}
@@ -834,6 +834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1720532165}
+  - component: {fileID: 1720532166}
   m_Layer: 0
   m_Name: Pooling
   m_TagString: Untagged
@@ -855,6 +856,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1720532166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720532164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700da8ae0ac859a4c8f9ec07d8cc876a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledLists:
+  - name: shots
+    objectToPool: {fileID: 7475149658926270905, guid: ebfe753e0120f6f4d93f2ecf1691b697, type: 3}
+    amount: 15
+  - name: missile
+    objectToPool: {fileID: 1748324666900075260, guid: 03f2a1e2509bf7c478bc4bbb1d35d281, type: 3}
+    amount: 10
+  - name: BigAsteroid
+    objectToPool: {fileID: 6469403201947706, guid: c9fd607f8a573c4498944b65f7f97f6a, type: 3}
+    amount: 5
+  - name: SmallAsteriod
+    objectToPool: {fileID: 440403570991168589, guid: 1f11708ab114676498c626fdd1752f4d, type: 3}
+    amount: 5
 --- !u!1 &1738622188
 GameObject:
   m_ObjectHideFlags: 0
