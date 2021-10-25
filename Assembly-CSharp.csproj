@@ -59,19 +59,33 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ShootingSystemData.cs" />
-    <Compile Include="Assets\Scripts\ShootingSystem.cs" />
-    <Compile Include="Assets\Scripts\HealthSystem.cs" />
-    <Compile Include="Assets\Scripts\ShipController.cs" />
-    <Compile Include="Assets\Scripts\PartSystem.cs" />
-    <Compile Include="Assets\Scripts\ShotSystem.cs" />
-    <Compile Include="Assets\Scripts\Engine.cs" />
-    <Compile Include="Assets\Scripts\DamageSystem.cs" />
-    <Compile Include="Assets\Scripts\PoolingManager.cs" />
-    <Compile Include="Assets\Scripts\InputSystemKeyboard.cs" />
-    <Compile Include="Assets\Scripts\MissileSystem.cs" />
-    <Compile Include="Assets\Scripts\Missile.cs" />
-    <Compile Include="Assets\Scripts\MeteorGenerator.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\ShootingSystemData.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\ShootingSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\OutScene.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\ShipController.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\PartSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\Engine.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\DamageSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\PoolingManager.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\InputSystemKeyboard.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\MissileSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\MeteorSystemData.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\ShotSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\MeteorSystem.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\Missile.cs" />
+    <Compile Include="Assets\Scripts\SpaceShip\MeteorGenerator.cs" />
+    <Compile Include="Assets\Scripts\SFM\Action.cs" />
+    <Compile Include="Assets\Scripts\SFM\Decision.cs" />
+    <Compile Include="Assets\Scripts\SFM\Transition.cs" />
+    <Compile Include="Assets\Scripts\SFM\State.cs" />
+    <Compile Include="Assets\Scripts\SFM\Controller.cs" />
+    <Compile Include="Assets\Scripts\SFMcarnation\States\Idle.cs" />
+    <Compile Include="Assets\Scripts\SFMcarnation\States\Shoot.cs" />
+    <Compile Include="Assets\Scripts\SFMcarnation\Decisions\HealthDecision.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Cuphead\Cagney Carnation\Credits.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
